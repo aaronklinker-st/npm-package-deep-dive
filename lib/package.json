@@ -1,13 +1,24 @@
 {
     "name": "@aklinker1/github-contributors",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A utility to get a list of contributors for a repo",
     "type": "module",
-    "main": "index.js",
+    "main": "dist/index.cjs",
+    "module": "dist/index.js",
     "publishConfig": {
         "access": "public"
     },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup index.js --format cjs,esm,iife --sourcemap --global-name githubContributors",
+        "prepublish": "pnpm build"
+    },
     "dependencies": {
         "ofetch": "^1.0.1"
+    },
+    "devDependencies": {
+        "tsup": "^6.7.0"
     }
 }

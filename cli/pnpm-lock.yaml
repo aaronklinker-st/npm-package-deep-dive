@@ -1,17 +1,17 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@aklinker1/github-contributors': ^0.0.2
+  '@aklinker1/github-contributors': ^0.0.3
   asciify-image: ^0.1.9
 
 dependencies:
-  '@aklinker1/github-contributors': 0.0.2
+  '@aklinker1/github-contributors': 0.0.3
   asciify-image: 0.1.9
 
 packages:
 
-  /@aklinker1/github-contributors/0.0.2:
-    resolution: {integrity: sha512-iwUEZIbprX/FMNqGxOzvXjqwiCSmzbcKeYVXZhA7fXXlPy5xdFrClWsmmRF5GIx3e0Geck0sKvYxodf2ZIXGVA==}
+  /@aklinker1/github-contributors/0.0.3:
+    resolution: {integrity: sha512-66Xu1B1H6QW8g6/ZdGW2riyBhjHKTkhR5OEUhDTSH2XBCwBhOPkGgqCWPzGioIZl9TvOiSbXWpXfFlWNri+GHQ==}
     dependencies:
       ofetch: 1.0.1
     dev: false
