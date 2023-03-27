@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "@aklinker1/github-contributors": "^0.0.4",
+        "@aklinker1/github-contributors": "^1.0.0",
         "asciify-image": "^0.1.9"
     }
 }

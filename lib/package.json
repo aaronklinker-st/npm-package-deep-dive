@@ -1,11 +1,11 @@
 {
     "name": "@aklinker1/github-contributors",
-    "version": "0.0.4",
+    "version": "1.0.0",
     "description": "A utility to get a list of contributors for a repo",
     "type": "module",
     "main": "dist/index.cjs",
     "module": "dist/index.js",
-    "types": "index.d.ts",
+    "types": "dist/index.d.ts",
     "publishConfig": {
         "access": "public"
     },
@@ -14,7 +14,7 @@
         "index.d.ts"
     ],
     "scripts": {
-        "build": "tsup index.js --format cjs,esm,iife --sourcemap --global-name githubContributors",
+        "build": "tsup index.ts --format cjs,esm,iife --sourcemap --global-name githubContributors --dts",
         "prepublish": "pnpm build"
     },
     "dependencies": {

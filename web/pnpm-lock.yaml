@@ -1,12 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@aklinker1/github-contributors': ^0.0.4
+  '@aklinker1/github-contributors': ^1.0.0
   typescript: ^4.9.3
   vite: ^4.2.0
 
 dependencies:
-  '@aklinker1/github-contributors': 0.0.4
+  '@aklinker1/github-contributors': 1.0.0
 
 devDependencies:
   typescript: 4.9.5
@@ -14,8 +14,8 @@ devDependencies:
 
 packages:
 
-  /@aklinker1/github-contributors/0.0.4:
-    resolution: {integrity: sha512-khsjI8znlAzaYYzV6Bgphh//45hXLU1Oa/38YeqNgCuBrP5/r6Xtd88tk9s1BWtDbNMLydW5f9rbCae135gNAA==}
+  /@aklinker1/github-contributors/1.0.0:
+    resolution: {integrity: sha512-eD6xMLgxDh8aehztUmvghpVG8TNEN0uwMpqkeSTHK+gzORIQXoF56zNSrHA3HzXrx8bn79FQEARTM57IC9rEwA==}
     dependencies:
       ofetch: 1.0.1
     dev: false
