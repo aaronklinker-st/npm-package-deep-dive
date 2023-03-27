@@ -1,10 +1,9 @@
 import "./style.css";
-// @ts-expect-error
-import { getContributors } from "@aklinker1/github-contributors";
+import { getContributors, Contributor } from "@aklinker1/github-contributors";
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
 
-const listItem = (contributor: any) => `
+const listItem = (contributor: Contributor) => `
   <li>
     <img src="${contributor.avatarUrl}" />
     <a href="${contributor.profileUrl}" target="_blank">${contributor.username}</a>

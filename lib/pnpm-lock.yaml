@@ -3,12 +3,14 @@ lockfileVersion: 5.4
 specifiers:
   ofetch: ^1.0.1
   tsup: ^6.7.0
+  typescript: ^5.0.2
 
 dependencies:
   ofetch: 1.0.1
 
 devDependencies:
-  tsup: 6.7.0
+  tsup: 6.7.0_typescript@5.0.2
+  typescript: 5.0.2
 
 packages:
 
@@ -779,7 +781,7 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /tsup/6.7.0:
+  /tsup/6.7.0_typescript@5.0.2:
     resolution: {integrity: sha512-L3o8hGkaHnu5TdJns+mCqFsDBo83bJ44rlK7e6VdanIvpea4ArPcU3swWGsLVbXak1PqQx/V+SSmFPujBK+zEQ==}
     engines: {node: '>=14.18'}
     hasBin: true
@@ -809,9 +811,16 @@ packages:
       source-map: 0.8.0-beta.0
       sucrase: 3.31.0
       tree-kill: 1.2.2
+      typescript: 5.0.2
     transitivePeerDependencies:
       - supports-color
       - ts-node
+    dev: true
+
+  /typescript/5.0.2:
+    resolution: {integrity: sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==}
+    engines: {node: '>=12.20'}
+    hasBin: true
     dev: true
 
   /ufo/1.1.1:
