@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@aklinker1/github-contributors": "^0.0.1"
+    "@aklinker1/github-contributors": "^0.0.2"
   },
   "devDependencies": {
     "typescript": "^4.9.3",

@@ -1,5 +1,5 @@
-import { getContributors } from "@aklinker1/github-contributors";
-import asciify from "asciify-image";
+const { getContributors } = require("@aklinker1/github-contributors");
+const asciify = require("asciify-image");
 
 async function main() {
   console.log("\nLoading...\n");
