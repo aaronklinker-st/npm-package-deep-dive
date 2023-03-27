@@ -1,14 +1,22 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@aklinker1/github-contributors': ^0.0.1
   typescript: ^4.9.3
   vite: ^4.2.0
+
+dependencies:
+  '@aklinker1/github-contributors': 0.0.1
 
 devDependencies:
   typescript: 4.9.5
   vite: 4.2.1
 
 packages:
+
+  /@aklinker1/github-contributors/0.0.1:
+    resolution: {integrity: sha512-WOBQuNUvnXIsJXd10XatrdF12SSrfDrNl7OfUV2rMxZIMJMzRVdJsYd3ANfbsyQMuWOngb1PSJePovLwA0KmcA==}
+    dev: false
 
   /@esbuild/android-arm/0.17.14:
     resolution: {integrity: sha512-0CnlwnjDU8cks0yJLXfkaU/uoLyRf9VZJs4p1PskBr2AlAHeEsFEwJEo0of/Z3g+ilw5mpyDwThlxzNEIxOE4g==}

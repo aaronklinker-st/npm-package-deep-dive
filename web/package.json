@@ -8,6 +8,9 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "@aklinker1/github-contributors": "^0.0.1"
+  },
   "devDependencies": {
     "typescript": "^4.9.3",
     "vite": "^4.2.0"

@@ -1,10 +1,13 @@
 {
     "name": "@aklinker1/github-contributors",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A utility to get a list of contributors for a repo",
     "type": "module",
     "main": "index.js",
     "publishConfig": {
         "access": "public"
+    },
+    "dependencies": {
+        "ofetch": "^1.0.1"
     }
 }
